@@ -177,11 +177,11 @@ a {
 }
 .box h4{
     color: #858585 ;
-    font-size: 1.2em ;
+    font-size: 30px ;
     margin: 3em 0em 1.5em 0em ;
 }
 .box p{
-    font-size: 0.9em;
+    font-size: 1.0em;
     line-height: 1.5em;
 }
 .services-content {
@@ -195,4 +195,58 @@ a {
         padding: 60px 0;
         margin: 10px 0;
     }
+}
+.about-content{
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    margin: 60px 0;
+    
+}
+.about-header{
+    text-align: center;
+    padding: 6em 0em 4em;
+}
+.about-header h2 {
+    font-size: 42px;
+    color: #474747;
+    margin-bottom: 12px;
+
+}
+.about-header p {
+    font-size: 22px;
+    color: #858585;
+
+}
+.about-content {
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    margin: 60px auto;
+    width: 90%;
+    padding-top: 60px;
+}
+
+.about-content>* {
+    float: left;
+}
+
+.about-content:after,
+.about-content:before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.profile {
+    width: 25%;
+    margin-bottom: 60px;
+}
+
+.profile img {
+    float: left;
+    border-radius: 50%;
+    /* margin-left: 15%; */
+}
+
+.profile h4 {
+    margin-top: 20px;
 }
